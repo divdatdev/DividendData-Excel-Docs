@@ -50,6 +50,43 @@
 - **Research dashboards** — Track metrics over time
 - **Watchlists** — Live prices and key metrics in one view
 
+
+---
+
+## Installation
+
+Getting started is easy. You can install the add-in directly from the Microsoft AppSource marketplace or search for it inside Excel.
+
+### Option 1: One-Click Install (Recommended)
+The fastest way to install is via our direct marketplace listing.
+
+1.  **Click this link:** [**Dividend Data on Microsoft AppSource**](https://marketplace.microsoft.com/en-us/product/WA200010010)
+2.  Click the blue **"Get it now"** button.
+3.  Sign in with your Microsoft account if prompted.
+4.  Click **"Open in Excel"** to launch a new spreadsheet with the add-in pre-loaded.
+
+### Option 2: Install Inside Excel
+You can also find the add-in without leaving your spreadsheet.
+
+**For Excel Desktop (Windows/Mac):**
+1.  Open Excel and go to the **Home** tab on the top ribbon.
+2.  Click the **Add-ins** button (sometimes labeled as "Get Add-ins" or a grid icon).
+3.  Click **"More Add-ins"** if a menu appears.
+4.  In the store window, search for **"Dividend Data"**.
+5.  Locate our logo and click **Add**.
+
+**For Excel on the Web:**
+1.  Go to the **Home** tab.
+2.  Click the **Add-ins** icon on the far right of the ribbon.
+3.  Search for **"Dividend Data"** and click **Add**.
+
+### ✅ Verification
+Once installed, a **"Dividend Data"** tab may appear in your ribbon, or you will receive a notification that the add-in is loaded. To test it immediately, type this formula into any empty cell:
+
+### 🚀 Next Steps
+Open the Sidebar: Click the Dividend Data tab in the ribbon (or the add-in icon) and select "Open Sidebar" to sign in and access quick tools.
+
+
 ---
 
 ## Function Reference
