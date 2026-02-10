@@ -317,20 +317,129 @@ Retrieves a specific metric from financial statements. Perfect for building cust
 
 ### Popular Metrics
 
-**Income Statement:**
-- `Revenue`, `GrossProfit`, `OperatingIncome`, `NetIncome`
-- `Eps`, `EpsDiluted`, `Ebitda`, `Ebit`
-- `CostOfRevenue`, `OperatingExpenses`, `InterestExpense`
-
-**Balance Sheet:**
-- `TotalAssets`, `TotalLiabilities`, `TotalStockholdersEquity`
-- `CashAndCashEquivalents`, `TotalDebt`, `NetDebt`
-- `Inventory`, `AccountsReceivables`, `AccountPayables`
-
-**Cash Flow:**
-- `OperatingCashFlow`, `FreeCashFlow`, `CapitalExpenditure`
-- `CommonDividendsPaid`, `CommonStockRepurchased`
-- `NetChangeInCash`
+* `"Revenue"` (Revenue)
+* `"CostOfRevenue"` (Cost of Revenue)
+* `"GrossProfit"` (Gross Profit)
+* `"ResearchAndDevelopmentExpenses"` (Research and Development Expenses)
+* `"GeneralAndAdministrativeExpenses"` (General and Administrative Expenses)
+* `"SellingAndMarketingExpenses"` (Selling and Marketing Expenses)
+* `"SellingGeneralAndAdministrativeExpenses"` (Selling General and Administrative Expenses)
+* `"OtherExpenses"` (Other Expenses)
+* `"OperatingExpenses"` (Operating Expenses)
+* `"CostAndExpenses"` (Cost and Expenses)
+* `"NetInterestIncome"` (Net Interest Income)
+* `"InterestIncome"` (Interest Income)
+* `"InterestExpense"` (Interest Expense)
+* `"DepreciationAndAmortization"` (Depreciation and Amortization)
+* `"Ebitda"` (Ebitda)
+* `"Ebit"` (Ebit)
+* `"NonOperatingIncomeExcludingInterest"` (Non Operating Income Excluding Interest)
+* `"OperatingIncome"` (Operating Income)
+* `"TotalOtherIncomeExpensesNet"` (Total Other Income Expenses Net)
+* `"IncomeBeforeTax"` (Income Before Tax)
+* `"IncomeTaxExpense"` (Income Tax Expense)
+* `"NetIncomeFromContinuingOperations"` (Net Income From Continuing Operations)
+* `"NetIncomeFromDiscontinuedOperations"` (Net Income From Discontinued Operations)
+* `"OtherAdjustmentsToNetIncome"` (Other Adjustments To Net Income)
+* `"NetIncome"` (Net Income)
+* `"NetIncomeDeductions"` (Net Income Deductions)
+* `"BottomLineNetIncome"` (Bottom Line Net Income)
+* `"Eps"` (Eps)
+* `"EpsDiluted"` (Eps Diluted)
+* `"WeightedAverageShsOut"` (Weighted Average Shs Out)
+* `"WeightedAverageShsOutDil"` (Weighted Average Shs Out Dil)
+* `"CashAndCashEquivalents"` (Cash and Cash Equivalents)
+* `"ShortTermInvestments"` (Short Term Investments)
+* `"CashAndShortTermInvestments"` (Cash and Short Term Investments)
+* `"NetReceivables"` (Net Receivables)
+* `"AccountsReceivables"` (Accounts Receivables)
+* `"OtherReceivables"` (Other Receivables)
+* `"Inventory"` (Inventory)
+* `"Prepaids"` (Prepaids)
+* `"OtherCurrentAssets"` (Other Current Assets)
+* `"TotalCurrentAssets"` (Total Current Assets)
+* `"PropertyPlantEquipmentNet"` (Property Plant Equipment Net)
+* `"Goodwill"` (Goodwill)
+* `"IntangibleAssets"` (Intangible Assets)
+* `"GoodwillAndIntangibleAssets"` (Goodwill and Intangible Assets)
+* `"LongTermInvestments"` (Long Term Investments)
+* `"TaxAssets"` (Tax Assets)
+* `"OtherNonCurrentAssets"` (Other Non Current Assets)
+* `"TotalNonCurrentAssets"` (Total Non Current Assets)
+* `"OtherAssets"` (Other Assets)
+* `"TotalAssets"` (Total Assets)
+* `"TotalPayables"` (Total Payables)
+* `"AccountPayables"` (Account Payables)
+* `"OtherPayables"` (Other Payables)
+* `"AccruedExpenses"` (Accrued Expenses)
+* `"ShortTermDebt"` (Short Term Debt)
+* `"CapitalLeaseObligationsCurrent"` (Capital Lease Obligations Current)
+* `"TaxPayables"` (Tax Payables)
+* `"DeferredRevenue"` (Deferred Revenue)
+* `"OtherCurrentLiabilities"` (Other Current Liabilities)
+* `"TotalCurrentLiabilities"` (Total Current Liabilities)
+* `"LongTermDebt"` (Long Term Debt)
+* `"CapitalLeaseObligationsNonCurrent"` (Capital Lease Obligations Non Current)
+* `"DeferredRevenueNonCurrent"` (Deferred Revenue Non Current)
+* `"DeferredTaxLiabilitiesNonCurrent"` (Deferred Tax Liabilities Non Current)
+* `"OtherNonCurrentLiabilities"` (Other Non Current Liabilities)
+* `"TotalNonCurrentLiabilities"` (Total Non Current Liabilities)
+* `"OtherLiabilities"` (Other Liabilities)
+* `"CapitalLeaseObligations"` (Capital Lease Obligations)
+* `"TotalLiabilities"` (Total Liabilities)
+* `"TreasuryStock"` (Treasury Stock)
+* `"PreferredStock"` (Preferred Stock)
+* `"CommonStock"` (Common Stock)
+* `"RetainedEarnings"` (Retained Earnings)
+* `"AdditionalPaidInCapital"` (Additional Paid In Capital)
+* `"AccumulatedOtherComprehensiveIncomeLoss"` (Accumulated Other Comprehensive Income Loss)
+* `"OtherTotalStockholdersEquity"` (Other Total Stockholders Equity)
+* `"TotalStockholdersEquity"` (Total Stockholders Equity)
+* `"TotalEquity"` (Total Equity)
+* `"MinorityInterest"` (Minority Interest)
+* `"TotalLiabilitiesAndTotalEquity"` (Total Liabilities and Total Equity)
+* `"TotalInvestments"` (Total Investments)
+* `"TotalDebt"` (Total Debt)
+* `"NetDebt"` (Net Debt)
+* `"NetIncome"` (Net Income)
+* `"DepreciationAndAmortization"` (Depreciation and Amortization)
+* `"DeferredIncomeTax"` (Deferred Income Tax)
+* `"StockBasedCompensation"` (Stock Based Compensation)
+* `"ChangeInWorkingCapital"` (Change In Working Capital)
+* `"AccountsReceivables"` (Accounts Receivables)
+* `"Inventory"` (Inventory)
+* `"AccountsPayables"` (Accounts Payables)
+* `"OtherWorkingCapital"` (Other Working Capital)
+* `"OtherNonCashItems"` (Other Non Cash Items)
+* `"NetCashProvidedByOperatingActivities"` (Net Cash Provided By Operating Activities)
+* `"InvestmentsInPropertyPlantAndEquipment"` (Investments In Property Plant and Equipment)
+* `"AcquisitionsNet"` (Acquisitions Net)
+* `"PurchasesOfInvestments"` (Purchases of Investments)
+* `"SalesMaturitiesOfInvestments"` (Sales Maturities of Investments)
+* `"OtherInvestingActivities"` (Other Investing Activities)
+* `"NetCashProvidedByInvestingActivities"` (Net Cash Provided By Investing Activities)
+* `"NetDebtIssuance"` (Net Debt Issuance)
+* `"LongTermNetDebtIssuance"` (Long Term Net Debt Issuance)
+* `"ShortTermNetDebtIssuance"` (Short Term Net Debt Issuance)
+* `"NetStockIssuance"` (Net Stock Issuance)
+* `"NetCommonStockIssuance"` (Net Common Stock Issuance)
+* `"CommonStockIssuance"` (Common Stock Issuance)
+* `"CommonStockRepurchased"` (Common Stock Repurchased)
+* `"NetPreferredStockIssuance"` (Net Preferred Stock Issuance)
+* `"NetDividendsPaid"` (Net Dividends Paid)
+* `"CommonDividendsPaid"` (Common Dividends Paid)
+* `"PreferredDividendsPaid"` (Preferred Dividends Paid)
+* `"OtherFinancingActivities"` (Other Financing Activities)
+* `"NetCashProvidedByFinancingActivities"` (Net Cash Provided By Financing Activities)
+* `"EffectOfForexChangesOnCash"` (Effect of Forex Changes On Cash)
+* `"NetChangeInCash"` (Net Change In Cash)
+* `"CashAtEndOfPeriod"` (Cash At End of Period)
+* `"CashAtBeginningOfPeriod"` (Cash At Beginning of Period)
+* `"OperatingCashFlow"` (Operating Cash Flow)
+* `"CapitalExpenditure"` (Capital Expenditure)
+* `"FreeCashFlow"` (Free Cash Flow)
+* `"IncomeTaxesPaid"` (Income Taxes Paid)
+* `"InterestPaid"` (Interest Paid)
 
 ### Examples
 
@@ -383,25 +492,105 @@ Retrieves financial ratios and valuation metrics.
 
 ### Popular Metrics
 
-**Valuation:**
-- `PeRatio`, `PriceToSalesRatio`, `PbRatio`, `PfcfRatio`
-- `EnterpriseValueOverEBITDA`, `EvToFreeCashFlow`
-- `EarningsYield`, `FreeCashFlowYield`
-
-**Profitability:**
-- `GrossProfitMargin`, `OperatingProfitMargin`, `NetProfitMargin`
-- `Roe` (Return on Equity), `Roic` (Return on Invested Capital)
-- `ReturnOnAssets`
-
-**Liquidity:**
-- `CurrentRatio`, `QuickRatio`, `CashRatio`
-
-**Leverage:**
-- `DebtToEquity`, `DebtToAssets`, `InterestCoverage`
-- `NetDebtToEBITDA`
-
-**Dividends:**
-- `DividendYield`, `PayoutRatio`, `DividendPayoutRatio`
+_All available metrics:_
+* `"RevenuePerShare"` (Revenue Per Share)
+* `"NetIncomePerShare"` (Net Income Per Share)
+* `"OperatingCashFlowPerShare"` (Operating Cash Flow Per Share)
+* `"FreeCashFlowPerShare"` (Free Cash Flow Per Share)
+* `"CashPerShare"` (Cash Per Share)
+* `"BookValuePerShare"` (Book Value Per Share)
+* `"TangibleBookValuePerShare"` (Tangible Book Value Per Share)
+* `"ShareholdersEquityPerShare"` (Shareholders Equity Per Share)
+* `"InterestDebtPerShare"` (Interest Debt Per Share)
+* `"MarketCap"` (Market Cap)
+* `"EnterpriseValue"` (Enterprise Value)
+* `"PeRatio"` (Pe Ratio)
+* `"PriceToSalesRatio"` (Price To Sales Ratio)
+* `"Pocfratio"` (Price to Operating Cash Flow Ratio)
+* `"PfcfRatio"` (Price to Free Cash Flow Ratio)
+* `"PbRatio"` (Price Book Value Ratio)
+* `"PtbRatio"` (Price to Book Ratio)
+* `"EvToSales"` (Enterprise Value to Sales)
+* `"EnterpriseValueOverEBITDA"` (Enterprise Value Over EBITDA)
+* `"EvToOperatingCashFlow"` (Enterprise Value To Operating Cash Flow)
+* `"EvToFreeCashFlow"` (Enterprise Value To Free Cash Flow)
+* `"EarningsYield"` (Earnings Yield)
+* `"FreeCashFlowYield"` (Free Cash Flow Yield)
+* `"DebtToEquity"` (Debt To Equity)
+* `"DebtToAssets"` (Debt To Assets)
+* `"NetDebtToEBITDA"` (Net Debt To EBITDA)
+* `"CurrentRatio"` (Current Ratio)
+* `"InterestCoverage"` (Interest Coverage)
+* `"IncomeQuality"` (Income Quality)
+* `"DividendYield"` (Dividend Yield)
+* `"PayoutRatio"` (Payout Ratio)
+* `"SalesGeneralAndAdministrativeToRevenue"` (Sales General And Administrative To Revenue)
+* `"ResearchAndDevelopmentToRevenue"` (Research And Development To Revenue)
+* `"IntangiblesToTotalAssets"` (Intangibles To Total Assets)
+* `"CapexToOperatingCashFlow"` (Capex To Operating Cash Flow)
+* `"CapexToRevenue"` (Capex To Revenue)
+* `"CapexToDepreciation"` (Capex To Depreciation)
+* `"StockBasedCompensationToRevenue"` (Stock Based Compensation To Revenue)
+* `"GrahamNumber"` (Graham Number)
+* `"Roic"` (Return on Investing Capital)
+* `"ReturnOnTangibleAssets"` (Return On Tangible Assets)
+* `"GrahamNetNet"` (Graham Net Net)
+* `"WorkingCapital"` (Working Capital)
+* `"TangibleAssetValue"` (Tangible Asset Value)
+* `"NetCurrentAssetValue"` (Net Current Asset Value)
+* `"InvestedCapital"` (Invested Capital)
+* `"AverageReceivables"` (Average Receivables)
+* `"AveragePayables"` (Average Payables)
+* `"AverageInventory"` (Average Inventory)
+* `"DaysSalesOutstanding"` (Days Sales Outstanding)
+* `"DaysPayablesOutstanding"` (Days Payables Outstanding)
+* `"DaysOfInventoryOnHand"` (Days Of Inventory On Hand)
+* `"ReceivablesTurnover"` (Receivables Turnover)
+* `"PayablesTurnover"` (Payables Turnover)
+* `"InventoryTurnover"` (Inventory Turnover)
+* `"Roe"` (Return on Equity)
+* `"CapexPerShare"` (Capex Per Share)
+* `"CurrentRatio"` (Current Ratio)
+* `"QuickRatio"` (Quick Ratio)
+* `"CashRatio"` (Cash Ratio)
+* `"DaysOfSalesOutstanding"` (Days Of Sales Outstanding)
+* `"DaysOfInventoryOutstanding"` (Days Of Inventory Outstanding)
+* `"OperatingCycle"` (Operating Cycle)
+* `"DaysOfPayablesOutstanding"` (Days Of Payables Outstanding)
+* `"CashConversionCycle"` (Cash Conversion Cycle)
+* `"GrossProfitMargin"` (Gross Profit Margin)
+* `"OperatingProfitMargin"` (Operating Profit Margin)
+* `"PretaxProfitMargin"` (Pretax Profit Margin)
+* `"NetProfitMargin"` (Net Profit Margin)
+* `"EffectiveTaxRate"` (Effective Tax Rate)
+* `"ReturnOnAssets"` (Return On Assets)
+* `"ReturnOnEquity"` (Return On Equity)
+* `"ReturnOnCapitalEmployed"` (Return On Capital Employed)
+* `"NetIncomePerEBT"` (Net Income Per EBT)
+* `"EbtPerEbit"` (Ebt Per Ebit)
+* `"EbitPerRevenue"` (Ebit Per Revenue)
+* `"DebtRatio"` (Debt Ratio)
+* `"DebtEquityRatio"` (Debt Equity Ratio)
+* `"LongTermDebtToCapitalization"` (Long Term Debt To Capitalization)
+* `"TotalDebtToCapitalization"` (Total Debt To Capitalization)
+* `"InterestCoverage"` (Interest Coverage)
+* `"CashFlowCoverageRatios"` (Cash Flow Coverage Ratios)
+* `"ShortTermCoverageRatios"` (Short Term Coverage Ratios)
+* `"CapitalExpenditureCoverageRatio"` (Capital Expenditure Coverage Ratio)
+* `"DividendPaidAndCapexCoverageRatio"` (Dividend Paid And Capex Coverage Ratio)
+* `"DividendPayoutRatio"` (Dividend Payout Ratio)
+* `"PriceBookValueRatio"` (Price Book Value Ratio)
+* `"PriceToBookRatio"` (Price To Book Ratio)
+* `"PriceToSalesRatio"` (Price To Sales Ratio)
+* `"PriceEarningsRatio"` (Price Earnings Ratio)
+* `"PriceToFreeCashFlowsRatio"` (Price To Free Cash Flows Ratio)
+* `"PriceToOperatingCashFlowsRatio"` (Price To Operating Cash Flows Ratio)
+* `"PriceCashFlowRatio"` (Price Cash Flow Ratio)
+* `"PriceEarningsToGrowthRatio"` (Price Earnings To Growth Ratio)
+* `"PriceSalesRatio"` (Price Sales Ratio)
+* `"DividendYield"` (Dividend Yield)
+* `"EnterpriseValueMultiple"` (Enterprise Value Multiple)
+* `"PriceFairValue"` (Price Fair Value)
 
 ### Examples
 
@@ -452,12 +641,46 @@ Retrieves growth metrics for financial figures.
 ```
 
 ### Popular Metrics
-- `RevenueGrowth`, `GrossProfitGrowth`, `OperatingIncomeGrowth`, `NetIncomeGrowth`
-- `EpsGrowth`, `EpsDilutedGrowth`, `DividendsPerShareGrowth`
-- `FreeCashFlowGrowth`, `OperatingCashFlowGrowth`
-- `BookValuePerShareGrowth`, `AssetGrowth`, `DebtGrowth`
-- `FiveYRevenueGrowthPerShare`, `TenYRevenueGrowthPerShare`
-- `FiveYDividendPerShareGrowthPerShare`
+_All available metrics:_
+* `"RevenueGrowth"` (Revenue Growth)
+* `"GrossProfitGrowth"` (Gross Profit Growth)
+* `"Ebitgrowth"` (Ebitgrowth)
+* `"OperatingIncomeGrowth"` (Operating Income Growth)
+* `"NetIncomeGrowth"` (Net Income Growth)
+* `"Epsgrowth"` (GAAP EPS growth)
+* `"EpsdilutedGrowth"` (EPS diluted Growth)
+* `"WeightedAverageSharesGrowth"` (Weighted Average Shares Growth)
+* `"WeightedAverageSharesDilutedGrowth"` (Weighted Average Shares Diluted Growth)
+* `"DividendsPerShareGrowth"` (Dividends Per Share Growth)
+* `"OperatingCashFlowGrowth"` (Operating Cash Flow Growth)
+* `"ReceivablesGrowth"` (Receivables Growth)
+* `"InventoryGrowth"` (Inventory Growth)
+* `"AssetGrowth"` (Asset Growth)
+* `"BookValuePerShareGrowth"` (Book Value Per Share Growth)
+* `"DebtGrowth"` (Debt Growth)
+* `"RdexpenseGrowth"` (Rdexpense Growth)
+* `"SgaexpensesGrowth"` (Sgaexpenses Growth)
+* `"FreeCashFlowGrowth"` (Free Cash Flow Growth)
+* `"TenYRevenueGrowthPerShare"` (Ten Y Revenue Growth Per Share)
+* `"FiveYRevenueGrowthPerShare"` (Five Y Revenue Growth Per Share)
+* `"ThreeYRevenueGrowthPerShare"` (Three Y Revenue Growth Per Share)
+* `"TenYOperatingCFGrowthPerShare"` (Ten Y Operating Cash Flow Growth Per Share)
+* `"FiveYOperatingCFGrowthPerShare"` (Five Y Operating Cash Flow Growth Per Share)
+* `"ThreeYOperatingCFGrowthPerShare"` (Three Y Operating Cash Flow Growth Per Share)
+* `"TenYNetIncomeGrowthPerShare"` (Ten Y Net Income Growth Per Share)
+* `"FiveYNetIncomeGrowthPerShare"` (Five Y Net Income Growth Per Share)
+* `"ThreeYNetIncomeGrowthPerShare"` (Three Y Net Income Growth Per Share)
+* `"TenYShareholdersEquityGrowthPerShare"` (Ten Y Shareholders Equity Growth Per Share)
+* `"FiveYShareholdersEquityGrowthPerShare"` (Five Y Shareholders Equity Growth Per Share)
+* `"ThreeYShareholdersEquityGrowthPerShare"` (Three Y Shareholders Equity Growth Per Share)
+* `"TenYDividendPerShareGrowthPerShare"` (Ten Y Dividend Per Share Growth Per Share)
+* `"FiveYDividendPerShareGrowthPerShare"` (Five Y Dividend Per Share Growth Per Share)
+* `"ThreeYDividendPerShareGrowthPerShare"` (Three Y Dividend Per Share Growth Per Share)
+* `"EbitdaGrowth"` (Ebitda Growth)
+* `"GrowthCapitalExpenditure"` (Growth Capital Expenditure)
+* `"TenYBottomLineNetIncomeGrowthPerShare"` (Ten Y Bottom Line Net Income Growth Per Share)
+* `"FiveYBottomLineNetIncomeGrowthPerShare"` (Five Y Bottom Line Net Income Growth Per Share)
+* `"ThreeYBottomLineNetIncomeGrowthPerShare"` (Three Y Bottom Line Net Income Growth Per Share)
 
 ### Examples
 
@@ -561,6 +784,15 @@ Retrieves quotes for multiple stocks at once. Perfect for watchlists.
 =DIVIDENDDATA.QUOTE_BATCH(symbols, [metrics], [showHeaders])
 ```
 
+### Parameters
+
+**symbols**: Comma-separated tickers (e.g., `"AAPL,MSFT"`). Required.
+
+**metrics**: Comma-separated metrics or `"all"`: `"price"`, `"change"`, `"volume"` (default: `"all"`).
+
+**showHeaders**: Include headers and symbol column (defaults based on metrics).
+
+
 ### Examples
 
 **Build a simple watchlist:**
@@ -592,13 +824,55 @@ Retrieves company profile and overview information.
 ```excel
 =DIVIDENDDATA.PROFILE(symbol, [metric], [showHeaders])
 ```
+### Description
+Retrieves company profile information. Useful for overview details like market cap, sector, or description.
 
-### Available Metrics
-- `"marketcap"`, `"price"`, `"beta"`, `"volume"`, `"averagevolume"`
-- `"companyname"`, `"description"`, `"ceo"`, `"sector"`, `"industry"`
-- `"exchange"`, `"country"`, `"website"`, `"fulltimeemployees"`
-- `"ipodate"`, `"isetf"`, `"isfund"`, `"isadr"`
-- `"full"` — Complete profile (table)
+### Parameters
+
+**symbol**: Stock ticker symbol (e.g., `"MSFT"`). Required.
+
+**metric**: Specific profile metric or `"full"`.
+
+_All available metrics:_
+* `"symbol"` (Symbol)
+* `"price"` (Price)
+* `"marketcap"` (Market Cap)
+* `"beta"` (Beta)
+* `"lastdividend"` (Last Dividend)
+* `"range"` (Range)
+* `"change"` (Change)
+* `"changepercentage"` (Change Percentage)
+* `"volume"` (Volume)
+* `"averagevolume"` (Average Volume)
+* `"companyname"` (Company Name)
+* `"currency"` (Currency)
+* `"cik"` (Cik)
+* `"isin"` (Isin)
+* `"cusip"` (Cusip)
+* `"exchangefullname"` (Exchange Full Name)
+* `"exchange"` (Exchange)
+* `"industry"` (Industry)
+* `"website"` (Website)
+* `"description"` (Description)
+* `"ceo"` (Ceo)
+* `"sector"` (Sector)
+* `"country"` (Country)
+* `"fulltimeemployees"` (Full Time Employees)
+* `"phone"` (Phone)
+* `"address"` (Address)
+* `"city"` (City)
+* `"state"` (State)
+* `"zip"` (Zip)
+* `"image"` (Image)
+* `"ipodate"` (Ipo Date)
+* `"defaultimage"` (Default Image)
+* `"isetf"` (Is Etf)
+* `"isactivelytrading"` (Is Actively Trading)
+* `"isadr"` (Is ADR?)
+* `"isfund"` (Is Fund?)
+* `"full"` (Return Full Profile)
+
+**showHeaders**: Include headers for `"full"` (default: `false`).
 
 ### Examples
 
@@ -636,16 +910,34 @@ Retrieves ETF and mutual fund data.
 ```excel
 =DIVIDENDDATA.FUND(symbol, [metric], [showHeaders])
 ```
+### Description
+Retrieves data for ETFs or mutual funds. Useful for fund analysis, including holdings, expense ratios, or sector exposures.
 
-### Available Metrics
-- `"expenseratio"` — Expense ratio
-- `"assetsundermanagement"` — Total AUM
-- `"holdings"` — Top holdings (table)
-- `"holdingscount"` — Number of holdings
-- `"nav"` — Net asset value
-- `"sectorslist"` — Sector breakdown (table)
-- `"countryweighting"` — Country allocation (table)
-- `"etfcompany"`, `"description"`, `"inceptiondate"`
+### Parameters
+
+**symbol**: Fund ticker symbol (e.g., `"SPY"`). Required.
+
+**metric**: Fund metrics like `"holdings"`, `"expenseRatio"`, etc.
+
+_All available metrics:_
+* `"etfcompany"` (Etf Company)
+* `"expenseratio"` (Expense Ratio)
+* `"assetsundermanagement"` (Assets Under Management)
+* `"holdings"` (Holdings)
+* `"nav"` (Net Asset Value)
+* `"navcurrency"` (NAV Currency)
+* `"holdingscount"` (Holdings Count)
+* `"countryweighting"` (Country Weighting)
+* `"sectorslist"` (Sectors List)
+* `"description"` (Description)
+* `"assetclass"` (Asset Class)
+* `"domicile"` (Domicile)
+* `"website"` (Website)
+* `"avgvolume"` (Avg Volume)
+* `"inceptiondate"` (Inception Date)
+* `"updatedat"` (Updated At)
+
+**showHeaders**: Include headers for tables (default: `false`).
 
 ### Examples
 
@@ -677,23 +969,26 @@ Retrieves ETF and mutual fund data.
 
 ## DIVIDENDDATA.ESTIMATES
 
-Retrieves analyst estimates for earnings and revenue.
+### Description
+Retrieves analyst estimates for earnings and revenue. Returns a summary table of future estimates, specific metric history (estimates vs actuals), or single next-year values for quick watchlist building. Useful for forecasting future growth, valuation models, and gauging analyst expectations.
 
-### Syntax
-```excel
-=DIVIDENDDATA.ESTIMATES(symbol, [metric], [period], [showHeaders])
-```
+### Parameters
+**symbol**: Stock ticker symbol (e.g., `"MSFT"`). Required.
 
-### Available Metrics
-| Metric | Description |
-|--------|-------------|
-| `"summary"` | Full estimates table |
-| `"eps"` | EPS estimates history |
-| `"revenue"` | Revenue estimates history |
-| `"next_year_eps"` | Next year's estimated EPS (single value) |
-| `"next_year_revenue"` | Next year's estimated revenue |
-| `"next_year_eps_growth"` | Next year's EPS growth % |
-| `"next_year_revenue_growth"` | Next year's revenue growth % |
+**metric**: The estimate metric to retrieve (default: `"summary"`).
+
+_Available metrics:_
+* `"summary"` (Returns a full table including: Date, Avg EPS Estimate, EPS Growth, High/Low EPS Estimates, Avg Revenue Estimate, Revenue Growth, High/Low Revenue Estimates, and Analyst Counts).
+* `"eps"` (Returns: Date, Avg EPS Estimate, EPS Growth).
+* `"revenue"` (Returns: Date, Avg Revenue Estimate, Revenue Growth).
+* `"next_year_eps"` (Returns a single value for the nearest future year's estimated EPS).
+* `"next_year_revenue"` (Returns a single value for the nearest future year's estimated Revenue).
+* `"next_year_eps_growth"` (Returns a single value for next year's estimated EPS growth %).
+* `"next_year_revenue_growth"` (Returns a single value for next year's estimated Revenue growth %).
+
+**period**: Period: `"annual"` or `"quarter"` (default: `"annual"`).
+
+**showHeaders**: Include headers for tables (default: `true`).
 
 ### Examples
 
@@ -836,15 +1131,62 @@ Retrieves commodities data.
 =DIVIDENDDATA.COMMODITIES([symbol], metric, [fromDate], [toDate], [showHeaders])
 ```
 
-### Popular Symbols
-| Symbol | Commodity |
-|--------|-----------|
-| `"CLUSD"` | Crude Oil (WTI) |
-| `"BZUSD"` | Brent Crude Oil |
-| `"GCUSD"` | Gold |
-| `"SIUSD"` | Silver |
-| `"NGUSD"` | Natural Gas |
-| `"HGUSD"` | Copper |
+### Description
+Retrieves commodities data, such as prices or history. Useful for tracking commodity markets like oil or gold.
+
+### Parameters
+
+**symbol**: Commodity symbol (e.g., `"CLUSD"`). Required except for `"list"`.
+
+_Full list of symbols:_
+* `"ZQUSD"` (30 Day Fed Fund Futures)
+* `"ALIUSD"` (Aluminum Futures)
+* `"ZBUSD"` (30 Year U.S. Treasury Bond Futures)
+* `"ZOUSX"` (Oat Futures)
+* `"ESUSD"` (E-Mini S&P 500)
+* `"ZMUSD"` (Soybean Meal Futures)
+* `"GCUSD"` (Gold Futures)
+* `"ZLUSX"` (Soybean Oil Futures)
+* `"KEUSX"` (Wheat Futures)
+* `"ZFUSD"` (Five-Year US Treasury Note)
+* `"SILUSD"` (Micro Silver Futures)
+* `"ZCUSX"` (Corn Futures)
+* `"HEUSX"` (Lean Hogs Futures)
+* `"PLUSD"` (Platinum)
+* `"HGUSD"` (Copper)
+* `"MGCUSD"` (Micro Gold Futures)
+* `"SBUSX"` (Sugar)
+* `"SIUSD"` (Silver Futures)
+* `"CTUSX"` (Cotton)
+* `"DXUSD"` (US Dollar)
+* `"ZSUSX"` (Soybean Futures)
+* `"LBUSD"` (Lumber Futures)
+* `"LEUSX"` (Live Cattle Futures)
+* `"NGUSD"` (Natural Gas)
+* `"CLUSD"` (Crude Oil)
+* `"OJUSX"` (Orange Juice)
+* `"KCUSX"` (Coffee)
+* `"PAUSD"` (Palladium)
+* `"GFUSX"` (Feeder Cattle Futures)
+* `"ZTUSD"` (2-Year T-Note Futures)
+* `"ZRUSD"` (Rough Rice Futures)
+* `"CCUSD"` (Cocoa)
+* `"NQUSD"` (Nasdaq 100)
+* `"ZNUSD"` (10-Year T-Note Futures)
+* `"RTYUSD"` (Micro E-mini Russell 2000 Index Futures)
+* `"BZUSD"` (Brent Crude Oil)
+* `"DCUSD"` (Class III Milk Futures)
+* `"YMUSD"` (Mini Dow Jones Industrial Average Index)
+* `"RBUSD"` (Gasoline RBOB)
+* `"HOUSD"` (Heating Oil)
+
+**metric**: Metric: `"list"`, `"price"`, `"fullquote"`, `"history"`. Required.
+
+**fromDate**: Start date for history.
+
+**toDate**: End date for history.
+
+**showHeaders**: Include headers for tables.
 
 ### Examples
 
@@ -872,19 +1214,29 @@ Retrieves commodities data.
 
 Retrieves cryptocurrency data.
 
-### Syntax
-```excel
-=DIVIDENDDATA.CRYPTO([symbol], metric, [fromDate], [toDate], [showHeaders])
-```
+### Description
+Retrieves cryptocurrency data, such as prices or history. Useful for tracking crypto markets like Bitcoin or Ethereum.
 
-### Popular Symbols
-| Symbol | Cryptocurrency |
-|--------|----------------|
-| `"BTCUSD"` | Bitcoin |
-| `"ETHUSD"` | Ethereum |
-| `"SOLUSD"` | Solana |
-| `"ADAUSD"` | Cardano |
-| `"DOGEUSD"` | Dogecoin |
+### Parameters
+**symbol**: Cryptocurrency symbol (e.g., "BTCUSD"). Required except for "list".
+
+_Full list of symbols (examples, may vary):_
+* `"BTCUSD"` (Bitcoin)
+* `"ETHUSD"` (Ethereum)
+* `"BNBUSD"` (Binance Coin)
+* `"XRPUSD"` (Ripple)
+* `"ADAUSD"` (Cardano)
+* `"SOLUSD"` (Solana)
+* `"DOGEUSD"` (Dogecoin)
+* `"LINKUSD"` (Chainlink)
+
+**metric**: Metric: `"list"`, `"price"`, `"fullquote"`, `"history"`. Required.
+
+**fromDate**: Start date for history (`"YYYY-MM-DD"`).
+
+**toDate**: End date for history (`"YYYY-MM-DD"`).
+
+**showHeaders**: Include headers for tables (default: `true`).
 
 ### Examples
 
