@@ -53,6 +53,31 @@
 
 ---
 
+### Quick Reference
+
+All functions use the `DIVIDENDDATA.` namespace in Excel.
+
+| Function | Description |
+|----------|-------------|
+| [`DIVIDENDDATA.DIVIDENDS`](#1-dividenddatadividends) | Dividend data (payouts, yields, history, growth) |
+| [`DIVIDENDDATA.DIVIDENDS_BATCH`](#2-dividenddatadividends_batch) | Batch dividend data for multiple stocks |
+| [`DIVIDENDDATA.STATEMENT`](#3-dividenddatastatement) | Financial statements (income, balance, cash flow) |
+| [`DIVIDENDDATA.METRICS`](#4-dividenddatametrics) | Individual financial metrics (revenue, EPS, etc.) |
+| [`DIVIDENDDATA.RATIOS`](#5-dividenddataratios) | Financial ratios (P/E, current ratio, ROE, etc.) |
+| [`DIVIDENDDATA.GROWTH`](#6-dividenddatagrowth) | Growth metrics (revenue growth, EPS growth, etc.) |
+| [`DIVIDENDDATA.QUOTE`](#7-dividenddataquote) | Stock quotes (price, volume, history) |
+| [`DIVIDENDDATA.QUOTE_BATCH`](#8-dividenddataquote_batch) | Batch quotes for multiple stocks |
+| [`DIVIDENDDATA.PROFILE`](#9-dividenddataprofile) | Company profiles (market cap, sector, CEO, etc.) |
+| [`DIVIDENDDATA.FUND`](#10-dividenddatafund) | ETF/Fund data (holdings, expense ratio) |
+| [`DIVIDENDDATA.ESTIMATES`](#11-dividenddataestimates) | Analyst estimates (EPS, revenue forecasts) |
+| [`DIVIDENDDATA.PRICE_TARGET`](#12-dividenddataprice_target) | Analyst price targets |
+| [`DIVIDENDDATA.SEGMENTS`](#13-dividenddatasegments) | Revenue segments (product, geographic) |
+| [`DIVIDENDDATA.KPIS`](#14-dividenddatakpis) | Key performance indicators |
+| [`DIVIDENDDATA.COMMODITIES`](#15-dividenddatacommodities) | Commodities data (oil, gold, etc.) |
+| [`DIVIDENDDATA.CRYPTO`](#16-dividenddatacrypto) | Cryptocurrency data |
+
+---
+
 ## Installation
 
 Getting started is easy. You can install the add-in directly from the Microsoft AppSource marketplace or search for it inside Excel.
@@ -88,35 +113,10 @@ Open the Sidebar: Click the Dividend Data tab in the ribbon (or the add-in icon)
 
 
 ---
-
 ## Function Reference
 
-All functions use the `DIVIDENDDATA.` namespace in Excel.
 
-### Quick Reference
-
-| Function | Description |
-|----------|-------------|
-| `DIVIDENDDATA.DIVIDENDS` | Dividend data (payouts, yields, history, growth) |
-| `DIVIDENDDATA.DIVIDENDS_BATCH` | Batch dividend data for multiple stocks |
-| `DIVIDENDDATA.STATEMENT` | Financial statements (income, balance, cash flow) |
-| `DIVIDENDDATA.METRICS` | Individual financial metrics (revenue, EPS, etc.) |
-| `DIVIDENDDATA.RATIOS` | Financial ratios (P/E, current ratio, ROE, etc.) |
-| `DIVIDENDDATA.GROWTH` | Growth metrics (revenue growth, EPS growth, etc.) |
-| `DIVIDENDDATA.QUOTE` | Stock quotes (price, volume, history) |
-| `DIVIDENDDATA.QUOTE_BATCH` | Batch quotes for multiple stocks |
-| `DIVIDENDDATA.PROFILE` | Company profiles (market cap, sector, CEO, etc.) |
-| `DIVIDENDDATA.FUND` | ETF/Fund data (holdings, expense ratio) |
-| `DIVIDENDDATA.ESTIMATES` | Analyst estimates (EPS, revenue forecasts) |
-| `DIVIDENDDATA.SEGMENTS` | Revenue segments (product, geographic) |
-| `DIVIDENDDATA.KPIS` | Key performance indicators |
-| `DIVIDENDDATA.COMMODITIES` | Commodities data (oil, gold, etc.) |
-| `DIVIDENDDATA.CRYPTO` | Cryptocurrency data |
-| `DIVIDENDDATA.PRICE_TARGET` | Analyst price targets |
-
----
-
-## DIVIDENDDATA.DIVIDENDS
+## 1) DIVIDENDDATA.DIVIDENDS
 
 Retrieves dividend-related data for a stock including payouts, yields, history, and growth rates.
 
@@ -200,7 +200,7 @@ Retrieves dividend-related data for a stock including payouts, yields, history, 
 
 ---
 
-## DIVIDENDDATA.DIVIDENDS_BATCH
+## 2) DIVIDENDDATA.DIVIDENDS_BATCH
 
 Retrieves dividend data for multiple stocks at once. Efficient for building dividend watchlists and portfolio trackers.
 
@@ -257,7 +257,7 @@ Retrieves dividend data for multiple stocks at once. Efficient for building divi
 
 ---
 
-## DIVIDENDDATA.STATEMENT
+## 3) DIVIDENDDATA.STATEMENT
 
 Retrieves full financial statements (income statement, balance sheet, cash flow statement).
 
@@ -297,7 +297,7 @@ Retrieves full financial statements (income statement, balance sheet, cash flow 
 
 ---
 
-## DIVIDENDDATA.METRICS
+## 4) DIVIDENDDATA.METRICS
 
 Retrieves a specific metric from financial statements. Perfect for building custom financial models.
 
@@ -481,7 +481,7 @@ Retrieves a specific metric from financial statements. Perfect for building cust
 
 ---
 
-## DIVIDENDDATA.RATIOS
+## 5) DIVIDENDDATA.RATIOS
 
 Retrieves financial ratios and valuation metrics.
 
@@ -631,7 +631,7 @@ _All available metrics:_
 
 ---
 
-## DIVIDENDDATA.GROWTH
+## 6) DIVIDENDDATA.GROWTH
 
 Retrieves growth metrics for financial figures.
 
@@ -710,7 +710,7 @@ _All available metrics:_
 
 ---
 
-## DIVIDENDDATA.QUOTE
+## 7) DIVIDENDDATA.QUOTE
 
 Retrieves stock quote data including current price and historical prices.
 
@@ -775,7 +775,7 @@ Retrieves stock quote data including current price and historical prices.
 
 ---
 
-## DIVIDENDDATA.QUOTE_BATCH
+## 8) DIVIDENDDATA.QUOTE_BATCH
 
 Retrieves quotes for multiple stocks at once. Perfect for watchlists.
 
@@ -816,7 +816,7 @@ Retrieves quotes for multiple stocks at once. Perfect for watchlists.
 
 ---
 
-## DIVIDENDDATA.PROFILE
+## 9) DIVIDENDDATA.PROFILE
 
 Retrieves company profile and overview information.
 
@@ -902,7 +902,7 @@ _All available metrics:_
 
 ---
 
-## DIVIDENDDATA.FUND
+## 10) DIVIDENDDATA.FUND
 
 Retrieves ETF and mutual fund data.
 
@@ -967,7 +967,7 @@ _All available metrics:_
 
 ---
 
-## DIVIDENDDATA.ESTIMATES
+## 11) DIVIDENDDATA.ESTIMATES
 
 ### Description
 Retrieves analyst estimates for earnings and revenue. Returns a summary table of future estimates, specific metric history (estimates vs actuals), or single next-year values for quick watchlist building. Useful for forecasting future growth, valuation models, and gauging analyst expectations.
@@ -1012,7 +1012,7 @@ _Available metrics:_
 
 ---
 
-## DIVIDENDDATA.PRICE_TARGET
+## 12) DIVIDENDDATA.PRICE_TARGET
 
 Retrieves analyst price targets.
 
@@ -1056,7 +1056,7 @@ Retrieves analyst price targets.
 
 ---
 
-## DIVIDENDDATA.SEGMENTS
+## 13) DIVIDENDDATA.SEGMENTS
 
 Retrieves revenue segmentation by product or geography.
 
@@ -1097,7 +1097,7 @@ Retrieves revenue segmentation by product or geography.
 
 ---
 
-## DIVIDENDDATA.KPIS
+## 14) DIVIDENDDATA.KPIS
 
 Retrieves key performance indicators from Fiscal.ai — company-specific operational metrics not found in standard financial statements.
 
@@ -1122,7 +1122,7 @@ Retrieves key performance indicators from Fiscal.ai — company-specific operati
 
 ---
 
-## DIVIDENDDATA.COMMODITIES
+## 15) DIVIDENDDATA.COMMODITIES
 
 Retrieves commodities data.
 
@@ -1210,7 +1210,7 @@ _Full list of symbols:_
 
 ---
 
-## DIVIDENDDATA.CRYPTO
+## 16) DIVIDENDDATA.CRYPTO
 
 Retrieves cryptocurrency data.
 
@@ -1262,28 +1262,32 @@ _Full list of symbols (examples, may vary):_
 
 ## Excel vs Google Sheets
 
-If you're coming from the Google Sheets add-in, note these naming differences:
+Function names are consistent across both platforms. The only difference is the separator: Excel uses `.` (dot) and Google Sheets uses `_` (underscore). This is a platform requirement — not a Dividend Data choice.
 
-| Google Sheets | Excel |
-|---------------|-------|
-| `=DIVIDENDDATA("MSFT", ...)` | `=DIVIDENDDATA.DIVIDENDS("MSFT", ...)` |
-| `=DIVIDENDDATA_BATCH(...)` | `=DIVIDENDDATA.DIVIDENDS_BATCH(...)` |
-| `=DIVIDENDDATA_STATEMENT(...)` | `=DIVIDENDDATA.STATEMENT(...)` |
-| `=DIVIDENDDATA_METRICS(...)` | `=DIVIDENDDATA.METRICS(...)` |
-| `=DIVIDENDDATA_RATIOS(...)` | `=DIVIDENDDATA.RATIOS(...)` |
-| `=DIVIDENDDATA_GROWTH(...)` | `=DIVIDENDDATA.GROWTH(...)` |
-| `=DIVIDENDDATA_QUOTE(...)` | `=DIVIDENDDATA.QUOTE(...)` |
-| `=DIVIDENDDATA_QUOTE_BATCH(...)` | `=DIVIDENDDATA.QUOTE_BATCH(...)` |
-| `=DIVIDENDDATA_PROFILE(...)` | `=DIVIDENDDATA.PROFILE(...)` |
-| `=DIVIDENDDATA_FUND(...)` | `=DIVIDENDDATA.FUND(...)` |
-| `=DIVIDENDDATA_SEGMENTS(...)` | `=DIVIDENDDATA.SEGMENTS(...)` |
-| `=DIVIDENDDATA_KPIS(...)` | `=DIVIDENDDATA.KPIS(...)` |
-| `=DIVIDENDDATA_COMMODITIES(...)` | `=DIVIDENDDATA.COMMODITIES(...)` |
-| `=DIVIDENDDATA_CRYPTO(...)` | `=DIVIDENDDATA.CRYPTO(...)` |
-| `=DIVIDENDDATA_PRICE_TARGET(...)` | `=DIVIDENDDATA.PRICE_TARGET(...)` |
-| `=DIVIDENDDATA_ESTIMATES(...)` | `=DIVIDENDDATA.ESTIMATES(...)` |
+**The rule: same function name, swap the separator.**
 
-**Key difference:** Excel uses the `DIVIDENDDATA.` namespace prefix with shorter function names.
+| Function | Excel | Google Sheets |
+|----------|-------|--------------|
+| Dividends | `=DIVIDENDDATA.DIVIDENDS(...)` | `=DIVIDENDDATA_DIVIDENDS(...)` |
+| Dividends Batch | `=DIVIDENDDATA.DIVIDENDS_BATCH(...)` | `=DIVIDENDDATA_DIVIDENDS_BATCH(...)` |
+| Statement | `=DIVIDENDDATA.STATEMENT(...)` | `=DIVIDENDDATA_STATEMENT(...)` |
+| Metrics | `=DIVIDENDDATA.METRICS(...)` | `=DIVIDENDDATA_METRICS(...)` |
+| Ratios | `=DIVIDENDDATA.RATIOS(...)` | `=DIVIDENDDATA_RATIOS(...)` |
+| Growth | `=DIVIDENDDATA.GROWTH(...)` | `=DIVIDENDDATA_GROWTH(...)` |
+| Quote | `=DIVIDENDDATA.QUOTE(...)` | `=DIVIDENDDATA_QUOTE(...)` |
+| Quote Batch | `=DIVIDENDDATA.QUOTE_BATCH(...)` | `=DIVIDENDDATA_QUOTE_BATCH(...)` |
+| Profile | `=DIVIDENDDATA.PROFILE(...)` | `=DIVIDENDDATA_PROFILE(...)` |
+| Fund | `=DIVIDENDDATA.FUND(...)` | `=DIVIDENDDATA_FUND(...)` |
+| Estimates | `=DIVIDENDDATA.ESTIMATES(...)` | `=DIVIDENDDATA_ESTIMATES(...)` |
+| Segments | `=DIVIDENDDATA.SEGMENTS(...)` | `=DIVIDENDDATA_SEGMENTS(...)` |
+| KPIs | `=DIVIDENDDATA.KPIS(...)` | `=DIVIDENDDATA_KPIS(...)` |
+| Commodities | `=DIVIDENDDATA.COMMODITIES(...)` | `=DIVIDENDDATA_COMMODITIES(...)` |
+| Crypto | `=DIVIDENDDATA.CRYPTO(...)` | `=DIVIDENDDATA_CRYPTO(...)` |
+| Price Target | `=DIVIDENDDATA.PRICE_TARGET(...)` | `=DIVIDENDDATA_PRICE_TARGET(...)` |
+
+Parameters, metrics, and outputs are identical across both platforms.
+
+Also available for Google Sheets! See the [Google Sheets Add-in Documentation](https://github.com/divdatdev/Dividend-Data-Spreadsheet-Docs).
 
 ---
 
