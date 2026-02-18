@@ -16,6 +16,31 @@
 
 ---
 
+### Quick Reference
+
+All functions use the `DIVIDENDDATA.` namespace in Excel.
+
+| Function | Description |
+|----------|-------------|
+| [`DIVIDENDDATA.DIVIDENDS`](#1-dividenddatadividends) | Dividend data (payouts, yields, history, growth) |
+| [`DIVIDENDDATA.DIVIDENDS_BATCH`](#2-dividenddatadividends_batch) | Batch dividend data for multiple stocks |
+| [`DIVIDENDDATA.STATEMENT`](#3-dividenddatastatement) | Financial statements (income, balance, cash flow) |
+| [`DIVIDENDDATA.METRICS`](#4-dividenddatametrics) | Individual financial metrics (revenue, EPS, etc.) |
+| [`DIVIDENDDATA.RATIOS`](#5-dividenddataratios) | Financial ratios (P/E, current ratio, ROE, etc.) |
+| [`DIVIDENDDATA.GROWTH`](#6-dividenddatagrowth) | Growth metrics (revenue growth, EPS growth, etc.) |
+| [`DIVIDENDDATA.QUOTE`](#7-dividenddataquote) | Stock quotes (price, volume, history) |
+| [`DIVIDENDDATA.QUOTE_BATCH`](#8-dividenddataquote_batch) | Batch quotes for multiple stocks |
+| [`DIVIDENDDATA.PROFILE`](#9-dividenddataprofile) | Company profiles (market cap, sector, CEO, etc.) |
+| [`DIVIDENDDATA.FUND`](#10-dividenddatafund) | ETF/Fund data (holdings, expense ratio) |
+| [`DIVIDENDDATA.ESTIMATES`](#11-dividenddataestimates) | Analyst estimates (EPS, revenue forecasts) |
+| [`DIVIDENDDATA.PRICE_TARGET`](#12-dividenddataprice_target) | Analyst price targets |
+| [`DIVIDENDDATA.SEGMENTS`](#13-dividenddatasegments) | Revenue segments (product, geographic) |
+| [`DIVIDENDDATA.KPIS`](#14-dividenddatakpis) | Key performance indicators |
+| [`DIVIDENDDATA.COMMODITIES`](#15-dividenddatacommodities) | Commodities data (oil, gold, etc.) |
+| [`DIVIDENDDATA.CRYPTO`](#16-dividenddatacrypto) | Cryptocurrency data |
+
+---
+
 ## Why Dividend Data?
 
 **Stop copying and pasting financial data.** The Dividend Data Excel Add-in brings institutional-quality financial data directly into your spreadsheets with simple formulas.
@@ -50,31 +75,6 @@
 - **Research dashboards** — Track metrics over time
 - **Watchlists** — Live prices and key metrics in one view
 
-
----
-
-### Quick Reference
-
-All functions use the `DIVIDENDDATA.` namespace in Excel.
-
-| Function | Description |
-|----------|-------------|
-| [`DIVIDENDDATA.DIVIDENDS`](#1-dividenddatadividends) | Dividend data (payouts, yields, history, growth) |
-| [`DIVIDENDDATA.DIVIDENDS_BATCH`](#2-dividenddatadividends_batch) | Batch dividend data for multiple stocks |
-| [`DIVIDENDDATA.STATEMENT`](#3-dividenddatastatement) | Financial statements (income, balance, cash flow) |
-| [`DIVIDENDDATA.METRICS`](#4-dividenddatametrics) | Individual financial metrics (revenue, EPS, etc.) |
-| [`DIVIDENDDATA.RATIOS`](#5-dividenddataratios) | Financial ratios (P/E, current ratio, ROE, etc.) |
-| [`DIVIDENDDATA.GROWTH`](#6-dividenddatagrowth) | Growth metrics (revenue growth, EPS growth, etc.) |
-| [`DIVIDENDDATA.QUOTE`](#7-dividenddataquote) | Stock quotes (price, volume, history) |
-| [`DIVIDENDDATA.QUOTE_BATCH`](#8-dividenddataquote_batch) | Batch quotes for multiple stocks |
-| [`DIVIDENDDATA.PROFILE`](#9-dividenddataprofile) | Company profiles (market cap, sector, CEO, etc.) |
-| [`DIVIDENDDATA.FUND`](#10-dividenddatafund) | ETF/Fund data (holdings, expense ratio) |
-| [`DIVIDENDDATA.ESTIMATES`](#11-dividenddataestimates) | Analyst estimates (EPS, revenue forecasts) |
-| [`DIVIDENDDATA.PRICE_TARGET`](#12-dividenddataprice_target) | Analyst price targets |
-| [`DIVIDENDDATA.SEGMENTS`](#13-dividenddatasegments) | Revenue segments (product, geographic) |
-| [`DIVIDENDDATA.KPIS`](#14-dividenddatakpis) | Key performance indicators |
-| [`DIVIDENDDATA.COMMODITIES`](#15-dividenddatacommodities) | Commodities data (oil, gold, etc.) |
-| [`DIVIDENDDATA.CRYPTO`](#16-dividenddatacrypto) | Cryptocurrency data |
 
 ---
 
